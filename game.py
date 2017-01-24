@@ -72,7 +72,7 @@ def fluidMotion(x, y, prevx, prevy):
 	if (abs(prevy - y) > 100):
 		y = prevy
 
-background = cv2.imread('background.png')
+background = cv2.imread('./images/background.png')
 height, width, depth = background.shape
 duck = cv2.imread('./images/duck.png')
 target_full = cv2.imread('./images/target.png')
